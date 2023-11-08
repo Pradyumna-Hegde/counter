@@ -1,0 +1,48 @@
+:root {
+  --clr-primary-400: #6c2ee8;
+  --clr-primary-500: #5c17e5;
+
+  --clr-neutral-100: #d8d1e6;
+  --clr-neutral-800: #373045;
+  --clr-neutral-900: #20192d;
+
+  --clr-logo: var(--clr-primary-500);
+  --clr-btn: var(--clr-primary-400);
+  --clr-link: var(--clr-btn);
+  --clr-heading: var(--clr-neutral-900);
+  --clr-description: var(--clr-heading);
+  --clr-count: var(--clr-neutral-800);
+  --clr-border: var(--clr-neutral-100);
+
+  --ff-primary: "Inter", sans-serif;
+  --ff-heading: var(--ff-primary);
+  --ff-description: var(--ff-primary);
+
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-700: 700;
+
+  --fw-regular: var(--fw-400);
+  --fw-medium: var(--fw-500);
+  --fw-bold: var(--fw-700);
+
+  --fs-extra-small: 0.75rem; /* 12px */
+  --fs-small: 0.875rem; /* 14px */
+  --fs-regular: 1rem; /* 16px */
+  --fs-medium: 1.5rem; /* 24px */
+  --fs-large: 4rem; /* 64px */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1;
+  padding: 0px;
+  margin: 0px;
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-regular);
+}

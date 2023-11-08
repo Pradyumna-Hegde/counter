@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+
+    <link
+      rel="shortcut icon"
+      href="favicon/favicon-32x32.png"
+      type="image/x-icon"
+    />
+
+    <!-- Google Fonts List -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- custom style sheets -->
+    <link rel="stylesheet" href="zero.css" />
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="container__header">
+        <img class="header__logo" src="assets/Logo.svg" alt="Counter" />
+        <div class="header__title-and-description">
+          <h3 class="heading">Counter</h3>
+          <p class="header__description">Press the button to use counter</p>
+        </div>
+      </header>
+
+      <main class="container__main">
+        <div class="container__main">
+          <p class="main__count">0</p>
+          <div class="main__btn-group">
+            <button class="btn decrease">Decrease</button>
+            <button class="btn reset">Reset</button>
+            <button class="btn increase">Increase</button>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <p class="footer__courtesy">(c) Pradyumna-Hegde</p>
+        <a class="footer__link" href="http://">GitHub</a>
+      </div>
+    </footer>
+
+    <!-- custom javascript code -->
+    <script src="index.js"></script>
+  </body>
+</html>
